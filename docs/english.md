@@ -13,8 +13,8 @@ git clone https://github.com/mertssmnoglu/discord-rpc-builder
 #### Dependencies:
 
 - [x] [Node Js](https://nodejs.org)
-- [x] [Npm](https://npmjs.com) => Genellikle Node Js ile birlikte gelir, ekstra kurulum gerekmez.
-- [x] [discord-rpc](https://npmjs.com/package/) => İndirdiğiniz dosyanın klasörüne girip terminale `npm i discord-rpc` yazın.
+- [x] [Npm](https://npmjs.com)
+- [x] [discord-rpc](https://npmjs.com/package/)
 
 #### Create a New Application:
 
