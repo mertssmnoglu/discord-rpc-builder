@@ -10,5 +10,5 @@ git clone https://github.com/mertssmnoglu/discord-rpc-builder
 
 ## Documentation
 
-[🇬🇧 English](https://github.com/mertssmnoglu/discord-rpc-builder/docs/english.md)
-[🇹🇷 Turkish](https://github.com/mertssmnoglu/discord-rpc-builder/docs/türkçe.md)
+[🇬🇧 English](https://github.com/mertssmnoglu/discord-rpc-builder/tree/master/docs/english.md)
+[🇹🇷 Turkish](https://github.com/mertssmnoglu/discord-rpc-builder/tree/master/docs/türkçe.md)
