@@ -8,7 +8,7 @@ Best option for discord-rpc.
 git clone https://github.com/mertssmnoglu/discord-rpc-builder
 ```
 
-## Dependencies
+## Documentation
 
-- [x] [Node Js](https://nodejs.org)
-- [x] [discord-rpc](https://npmjs.com/package/discord-rpc)
+[🇬🇧 English](https://github.com/mertssmnoglu/discord-rpc-builder/docs/english.md)
+[🇹🇷 Turkish](https://github.com/mertssmnoglu/discord-rpc-builder/docs/türkçe.md)
