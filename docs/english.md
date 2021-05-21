@@ -21,6 +21,7 @@ git clone https://github.com/mertssmnoglu/discord-rpc-builder
 1) Open [Discord Developers](https://discord.com/developers/applications) website and log in.
 
 2) Click the `New Application` button then enter the application name (ex. personal-links) and click the create.
+
 ![New Application](https://cdn.discordapp.com/attachments/838394083013689345/844095138660745246/unknown.png)
 ![Rename the Application](https://cdn.discordapp.com/attachments/838394083013689345/844095665977557042/unknown.png)
 
@@ -37,6 +38,7 @@ git clone https://github.com/mertssmnoglu/discord-rpc-builder
 ! If you do not want to add image you can skip these steps.
 
 5) Clik `Rich Presence` section and upload your images.
+
 ![Add Image](https://cdn.discordapp.com/attachments/838394083013689345/844096542377508884/unknown.png)
 ![Add Image Area](https://cdn.discordapp.com/attachments/838394083013689345/844097302666936320/unknown.png)
 
