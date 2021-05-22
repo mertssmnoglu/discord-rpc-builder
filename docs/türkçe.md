@@ -8,6 +8,12 @@ Discord rpc için en iyi seçenek.
 git clone https://github.com/mertssmnoglu/discord-rpc-builder
 ```
 
+## Youtube Videosu
+
+Video'ya gitmek için [tıklayınız](https://www.youtube.com/watch?v=3VGHw9wzS1g).
+
+Video'yu hazırlayan [KEC](https://www.youtube.com/channel/UCqViN53167r6hjS8ad3QmvQ)'e teşekkür ederiz.
+
 ## Kurulum ve Ayarlar
 
 #### Gereken Yazılımlar:
