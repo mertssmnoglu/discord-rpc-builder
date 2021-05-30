@@ -5,7 +5,6 @@ rpc.register(config.id);
 const client = new rpc.Client({transport: 'ipc'});
 
 client.on('ready', () => {
-    console.log("Discord Rpc Running")
     client.setActivity({
         details: config.details,
         state: config.state,
@@ -14,11 +13,13 @@ client.on('ready', () => {
         smallImageKey: config.smallImageKey,
         smallImageText: config.smallImageText,
         buttons: config.buttons
-    });
+    }).then(drpc => {
+        console.log("Discord Rpc Running")
+    }).catch(err => console.log(err))
 });
 
 client.login({
     clientId: config.id
 }).catch((err) => {
-    console.log(err.message)
+    throw err.message;
 });
