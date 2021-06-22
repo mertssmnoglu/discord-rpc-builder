@@ -14,12 +14,10 @@ client.on('ready', () => {
         smallImageText: config.smallImageText,
         buttons: config.buttons
     }).then(drpc => {
-        console.log("Discord Rpc Running")
+        console.log(`${drpc.name} App Running`)
     }).catch(err => console.log(err))
 });
 
-client.login({
-    clientId: config.id
-}).catch((err) => {
-    throw err.message;
+client.login({clientId: config.id}).catch((error) => {
+    throw error.message;
 });
