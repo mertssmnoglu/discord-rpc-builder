@@ -11,6 +11,7 @@ git clone https://github.com/mertssmnoglu/discord-rpc-builder
 ```bash
 # with node
 cd discord-rpc-builder
+npm install
 node index.js
 
 # with docker
