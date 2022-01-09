@@ -1,4 +1,4 @@
-# Discord Rpc Builder (Archived)
+# Discord Rpc Builder
 
 Best option for discord-rpc.
 
