@@ -1,5 +1,4 @@
 # Discord Rpc Builder (Archived)
-`Do not works with Discord's new UI` 
 
 Best option for discord-rpc.
 

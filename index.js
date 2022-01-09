@@ -1,21 +1,11 @@
-const rpc = require("discord-rpc");
-const config = require('./config.json');
-const client = new rpc.Client({transport: 'ipc'});
+const DiscordRPC = require("discord-rpc");
+const {clientId,staticActivityOptions} = require('./config.json');
+DiscordRPC.register(clientId);
+const rpc = new DiscordRPC.Client({transport: 'ipc'});
 
-client.on('ready', () => {
-    client.setActivity({
-        details: config.details,
-        state: config.state,
-        largeImageKey: config.largeImageKey,
-        largeImageText: config.largeImageText,
-        smallImageKey: config.smallImageKey,
-        smallImageText: config.smallImageText,
-        buttons: config.buttons
-    }).then(drpc => {
-        console.log(`${drpc.name} App Running`)
-    }).catch(err => console.log(err))
-});
+rpc.on('ready', () => {
+    if (!rpc) return;
+    rpc.setActivity(staticActivityOptions).then(drpc => console.log(`${drpc.name} is running`))
+})
 
-client.login({clientId: config.id}).catch((error) => {
-    throw error.message;
-});
+rpc.login({ clientId }).catch(console.error);
