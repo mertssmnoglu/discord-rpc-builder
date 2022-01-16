@@ -2,19 +2,17 @@
 
 Best option for discord-rpc.
 
-## Download
+## Download and Run
 
 ```bash
-git clone https://github.com/mertssmnoglu/discord-rpc-builder
-```
-## Run
-```bash
 # with node
+git clone https://github.com/mertssmnoglu/discord-rpc-builder
 cd discord-rpc-builder
 npm install
 node index.js
 
 # with docker
+git clone https://github.com/mertssmnoglu/discord-rpc-builder
 cd discord-rpc-builder
 docker build . -t mertssmnoglu/discord-rpc-builder
 docker run -it mertssmnoglu/discord-rpc-builder
