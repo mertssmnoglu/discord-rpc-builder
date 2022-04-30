@@ -8,59 +8,47 @@ Discord rpc için en iyi seçenek.
 git clone https://github.com/mertssmnoglu/discord-rpc-builder
 ```
 
-## Youtube Videosu
-
-Video'ya gitmek için [tıklayınız](https://www.youtube.com/watch?v=3VGHw9wzS1g).
-
-Video'yu hazırlayan [KEC](https://www.youtube.com/channel/UCqViN53167r6hjS8ad3QmvQ)'e teşekkür ederiz.
-
 ## Kurulum ve Ayarlar
 
-#### Gereken Yazılımlar:
+#### Gereklilikler:
 
 - [x] [Node Js](https://nodejs.org)
-- [x] [Npm](https://npmjs.com) => Genellikle Node Js ile birlikte gelir, ekstra kurulum gerekmez.
+- [x] [discord-rpc Modülü](https://npmjs.com/package/discord-rpc)
+- [x] [inquirer Modülü](https://npmjs.com/package/)
 
-#### Gereken Npm Modülleri:
-
-- [x] [discord-rpc](https://npmjs.com/package/) => İndirdiğiniz dosyanın klasörüne girip terminale `npm i discord-rpc` yazın.
+`npm install` komutunu kullanarak tüm gerekli npm modüllerini indirin.
 
 #### Yeni Uygulama Oluşturma:
 
 1) [Discord Developers](https://discord.com/developers/applications) sitesine giriş yapın.
 
 2) Sağ üst köşeden `New Application` yazan butona tıklayın ardından durumunuzda göstermek istediğiniz ismi girin ve `Create` butonuna tıklayın.
-![Yeni Uygulama](https://cdn.discordapp.com/attachments/838394083013689345/844095138660745246/unknown.png)
-![Uygulamaya isim verin](https://cdn.discordapp.com/attachments/838394083013689345/844095665977557042/unknown.png)
-
-3) Açılan sekmede yazan `Application ID`'yi kopyalayın ve config.json dosyasındaki id kısmına yapıştırın.
-
-4) config.json dosyasındaki diğer ayarları yapınız.
-
-    details : ilk satır
-
-    state : ikinci satır
+![Yeni Uygulama](https://cdn.discordapp.com/attachments/869417576931926036/970000328114180136/unknown.png)
 
 #### Uygulama'ya Görsel Ekleme:
 
 ! Eğer görsel eklemeyecekseniz bu adımları geçebilirsiniz.
 
 5) `Rich Presence` kısmına gelin ve buradan durumda gözükmesini istediğiniz görselleri ekleyin.
-![Görsel Ekleme](https://cdn.discordapp.com/attachments/838394083013689345/844096542377508884/unknown.png)
-![Görsel Yükleme Alanı](https://cdn.discordapp.com/attachments/838394083013689345/844097302666936320/unknown.png)
+
+![Görsel Yükleme Alanı](https://cdn.discordapp.com/attachments/869417576931926036/969999909384257586/unknown.png)
 
 Discord, eklediğiniz görselleri anında gösteremeyebilir 5-10 dk arayla siteyi yenileyiniz.
 
-6) Eklediğiniz görsellerin isimlerini config.json dosyasınaki `largeImageKey` veya `smallImageKey` kısımlarına yazınız.
-Bu işlemi yaptıktan sonra imleç ile görsellerin üzerine gelince çıkacak olan yazıları ekleyiniz(`largeImageText` veya `smallImageText`)
+## Çalıştırma
 
-#### Buton Ekleme - Kaldırma:
+Uygulamayı npm run komutunu kullanarak çalıştırın.
 
-7) Butonlarınızı bu formata uygun şekilde düzenleyiniz.
-    ```json
-    "buttons":[
-        {"label":"buton","url":"link1"},
-        {"label":"buton2","url":"link2"}
-    ]
-    ```
-    Eğer sadece bir buton kullanmak istiyorsanız dizinin içerisinde sadece 1 buton bırakın, eğer buton kullanmak istemiyorsanız "buttons" dizinini siliniz.
+```bash
+npm run
+```
+
+Eğer uygulamayı ilk defa çalıştırıyorsanız sizden sırasıyla
+
+1. Oluşturduğunuz discord uygulamasının id'si
+2. Uygulamanın ilk satırında gözükecek yazıyı
+3. Uygulamanın ikinci satırında gözükecek yazıyı
+4. Eğer varsa eklediğiniz görsellerin anahtarlarını ve yazılarını
+5. Eğer varsa ekleyeceğiniz butonların sayısını ve içeriklerini
+
+isteyecektir. Tüm bu veriler doğru şekilde girildikten sonra 5 saniye içerisinde uygulama çalışacaktır.
