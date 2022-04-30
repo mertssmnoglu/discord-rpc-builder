@@ -31,7 +31,7 @@ async function createConfigFile(fileName) {
     }, {
         name: "images",
         type: "list",
-        message: "Do you want buttons ?",
+        message: "Do you want images ?",
         choices: ["No Image","Large Image","Small Image","Large and Small Images"]
     }, {
         name: "buttons",
