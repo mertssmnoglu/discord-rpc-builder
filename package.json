@@ -4,7 +4,7 @@
   "description": "Discord rpc builder with discord-rpc module.",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js"
+    "rpc": "node index.js"
   },
   "keywords": [
     "discord",
