@@ -9,7 +9,7 @@ Best option for discord-rpc.
 git clone https://github.com/mertssmnoglu/discord-rpc-builder
 cd discord-rpc-builder
 npm install
-node index.js
+npm run rpc
 
 # with docker
 git clone https://github.com/mertssmnoglu/discord-rpc-builder
