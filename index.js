@@ -162,7 +162,7 @@ async function startRpc(configFile) {
     DiscordRPC.register(clientId);
     rpc.on('ready', () => {
         if (!rpc) return;
-        rpc.setActivity(staticActivityOptions).then(drpc => console.log(`${drpc.name} is running`))
+        rpc.setActivity(staticActivityOptions).then(drpc => console.log(`Running ${drpc.name}`))
     })
 
     rpc.login({clientId}).catch(console.error);
