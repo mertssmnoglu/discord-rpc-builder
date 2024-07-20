@@ -23,3 +23,7 @@ docker run -it mertssmnoglu/discord-rpc-builder
 [🇬🇧 English](https://github.com/mertssmnoglu/discord-rpc-builder/tree/master/docs/english.md)
 
 [🇹🇷 Turkish](https://github.com/mertssmnoglu/discord-rpc-builder/tree/master/docs/türkçe.md)
+
+## License
+
+[Apahe License 2.0](./LICENSE)
