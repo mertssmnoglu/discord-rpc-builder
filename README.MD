@@ -1,6 +1,6 @@
 # Discord Rpc Builder
 
-Best option for discord-rpc.
+Discord Rpc Builder is a Command Line Interface(CLI) that allows you to create a rich presence for your discord profile.
 
 ## Download and Run
 
