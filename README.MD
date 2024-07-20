@@ -1,6 +1,13 @@
-# Discord Rpc Builder
+# Discord Rpc Builder | Archived
+
+> [!NOTE]
+> Since it does not works with the Discord's new UI, this project is archived. If you want to use it, you can fork and update the code.
+
+---
 
 Discord Rpc Builder is a Command Line Interface(CLI) that allows you to create a rich presence for your discord profile.
+
+![Discord Rpc Builder Preview](./docs/preview.png)
 
 ## Download and Run
 
