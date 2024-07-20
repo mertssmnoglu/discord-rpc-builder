@@ -13,7 +13,7 @@
     "discord-applications"
   ],
   "author": "mertssmnoglu",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "discord-rpc": "^3.2.0",
     "inquirer": "^8.2.1"
